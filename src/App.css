@@ -36,3 +36,292 @@
     transform: rotate(360deg);
   }
 }
+/*  */
+.header{
+  background-image:url('../src/Componant/Accets/Img/Group17.jpg');
+ 
+  width: 100%;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.headerNavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+}
+.navbar-right-btn{
+  display: flex;
+  justify-content: space-around;
+}
+.loginBtnMainDiv{
+  display: flex;
+  margin-right: 2rem;
+}
+.loginBtn{
+  background-color: white;
+  color: black;
+  padding: 4px 18px;
+    border-radius: 7px 0 0 7px;
+}
+.CreateAccBtn{
+  background-color: black;
+  color: white;
+  padding: 4px 18px;
+    border-radius: 0 7px 7px 0px;
+}
+.logo-img{
+  width: 70%;
+}
+.bannerHeading{
+  font-size: 40px;
+  font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+.dailyfud-heading{
+  font-size: 28px;
+  font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.deleveryLocationInput{
+  border-radius: 5px;
+  border: none;
+  width: 70%;
+    background: #ECECEC;
+    padding: 8.5px 41.775px 9.5px 14.098px;
+}
+.searchBtn{
+  padding: 8px 30px !important ;
+    margin-left: 28px;
+    font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+}
+.bannerRightColHeaing{
+  font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+.notifyMeDiv{
+  text-align: center;
+  padding-top: 20px;
+}
+.timerMainDiv{
+  text-align: center;
+      padding-left: 80px;
+        padding-right: 32px;
+}
+
+.counterTableHeading{
+  background: black;
+  color: white;
+ 
+}
+.bannerLeftColMainDiv{
+  padding: 0 0rem 0 5rem; 
+}
+.timerHeading{
+      background: black;
+        color: white;
+        padding: 25px 0 35px 0px;
+        border-radius: 14px 14px 0px 0px;
+}
+.timerValueMainDiv{
+  background: white;
+    border-radius: 14px;
+      position: relative;
+      top: -9px;
+    padding: 26px 0;
+}
+.timerValue{
+  background: black;
+  color: white;
+  font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.bannerMainDiv{
+  padding: 3rem 0rem;
+}
+.salesTimerMainDiv{
+  /* width: 80%; */
+}
+/*  */
+.footer{
+  background-color: white;
+}
+ul li{
+  list-style: none;
+}
+.footerHeading{
+  color: #000;
+  
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.footerContent{
+  color: #696969;
+  
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    /* 150% */
+}
+.copWritePara{
+  color: #4F4F4F;
+  
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+.DontHustleFoodSection{
+background: linear-gradient(0deg, #F1F1F1 0%, #F1F1F1 100%), #FFF;
+
+}
+.DontHustleFoodSectionHeading{
+  color: #000;
+  
+   
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+}
+.DontHustleFoodSectionPara{
+  color: rgba(0, 0, 0, 0.50);
+  
+ 
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+}
+.downloadAppPara{
+  color: #7A7E8A;
+  
+    
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+.orderTrackingDivHeading{
+  color: #000;
+  
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.5px;
+    padding: 15px 10px;
+}
+.orderTrackingDivPara{
+  color: rgba(0, 0, 0, 0.50);
+  
+    text-align: center;
+   
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.5px;
+    padding-bottom: 20px;
+    min-height: 85px;
+}
+.trackingImgDiv{
+      min-height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  /* border-radius: 50%; */
+  /* background-color: rgba(217, 217, 217, 0.20); */
+}
+.trackingMainDiv{
+  margin-right:1rem ;
+  border-radius: 10px;
+    border: 10px solid #F4F4F4;
+   
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 100%), url('../src/Componant/Accets/Img/Group17.jpg'), lightgray 50%
+}
+.whaySdUOrderSectionPara{
+  color: rgba(0, 0, 0, 0.50);
+  
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+.whaySdUOrderSectionHeadingDiv{
+  text-align: center;
+}
+.whaySdUOrderSection{
+  padding-bottom: 6rem;
+}
+.serviceSuitHeading{
+  color: #000;
+  
+    text-align: center;
+   
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.5px;
+}
+.serviceSuitPara{
+  color: rgba(0, 0, 0, 0.50);
+  
+    text-align: center;
+  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.5px;
+    padding-bottom: 2rem;
+}
+.whaySdUOrderSection{
+  background: url('../src/Componant/Accets/Img/WhatsApp\ Image\ 2023-11-27\ at\ 11.13.50\ PM.jpeg');
+  width: 100%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.serviceSuitMainDiv{
+  background: url('../src/Componant/Accets/Img/WhatsApp\ Image\ 2023-11-27\ at\ 11.13.50\ PM.jpeg');
+    width: 100%;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 600px; */
+        padding: 7rem 0;
+}
+.reverseImg{
+      transform: rotateX(188deg);
+      width: 90%;
+      position: relative;
+        top: 11rem;
+}
+.blackIphoneImg{
+  width: 90%;
+}
+.DontHustleFoodSectionMainDiv{
+  padding: 7rem 0;
+}
